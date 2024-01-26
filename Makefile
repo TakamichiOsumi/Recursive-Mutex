@@ -14,5 +14,4 @@ clean:
 	rm -rf $(PROGRAM) rec_mutex.o
 
 test: $(PROGRAM)
-	@echo "Testing recursive mutex is successful when it returns 0."
-	@./$(PROGRAM) && echo ">>> $$?"
+	@./$(PROGRAM) && echo "Successful if the result is zero >>> $$?"
